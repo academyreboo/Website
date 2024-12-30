@@ -406,6 +406,8 @@ h6 {
     transition: color 0.3s;
   }
 
+
+
   .navmenu {
     padding: 0;
     z-index: 9997;
@@ -819,7 +821,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 5vh 0;
   scroll-margin-top: 900px;
   overflow: clip;
 }
@@ -945,6 +947,19 @@ section,
   .hero p {
     font-size: 18px;
   }
+
+  .hero {
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+    padding: 300px 0;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--default-color);
+  }
+  
 }
 
 /*--------------------------------------------------------------
